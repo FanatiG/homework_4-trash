@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>titlePlaceholder</title>
+	<meta charset="utf-8">
+	<!-- <link rel="import" href="./secondPage.html"> -->
+	<!-- <link rel="import" href="./thirdPage.html"> -->
+	<link rel="stylesheet" href="../style/mainPage.css">
+</head>
+
+<body>
+	<nav>
+		<a>Перейти</a>
+		<a href='./secondPage.html'>Перейти</a>
+		<a href='./thirdPage.html'>Перейти</a>
+	</nav>
+	<menu>
+		<ul class="list" type='none'>
+			<li><a onclick="window.open('//habr.com/ru/post/266895/')">progress bar</a></li>
+			<li>пункт меню</li>
+			<li>пункт меню</li>
+			<li>пункт меню</li>
+		</ul>
+	</menu>
+	<section>
+	<div class="progress">
+		<progress id="progress" max="100" value="0"></progress>
+		<div class="progress-value"></div>
+		<div id="progress-bg" class="progress-bg">
+			<div class="progress-bar"></div>
+		</div>
+	</div>
+	<button onclick="startButton()" id='start'>GO</button>
+	<button onclick="stopButton()" id='stop'>STOP</button>
+	</section>
+	<!-- <button onclick="resumeButton()" id='resume'>RESUME</button> -->
+	<div></div>
+	<script src="../src/main.js"></script>
+</body>
+
+</html>

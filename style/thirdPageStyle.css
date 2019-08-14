@@ -1,7 +1,4 @@
-html {
-    background-color: rgba( 0, 0, 0, 1);
-    color: white;
-};
+
 a:link {
     color: white;
   }
@@ -13,4 +10,12 @@ a:link {
   }
   a:active {
     color: white;
+  }
+
+  menu {
+    padding: 0;
+  }
+  
+  .list {
+    padding: 0;
   }

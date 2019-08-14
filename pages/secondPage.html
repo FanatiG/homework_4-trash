@@ -4,9 +4,8 @@
 <head>
 	<title>titlePlaceholder</title>
 	<meta charset="utf-8">
-	<link rel="import" href="./mainPage.html">
-	<link rel="import" href="./thirdPage.html">
 	<link rel="stylesheet" href="../style/secondPageStyle.css">
+	<link rel="stylesheet" href="../style/jointStyle.css">
 </head>
 
 <body>
@@ -16,14 +15,31 @@
 		<a href='./thirdPage.html'>Перейти</a>
 	</nav>
 	<menu>
-		<ul type='none'>
-			<li>пункт меню</li>
-			<li>пункт меню</li>
-			<li>пункт меню</li>
+		<ul class="list" type='none'>
+			<li>polindrome</li>
+			<li>fizzbuzz</li>
+			<li>anagram</li>
 			<li>пункт меню</li>
 		</ul>
 	</menu>
-	<div></div>
+	<section>
+		<input id="firstInput" type="text" size="50" id="submitSpace" autocomplete="off" placeholder="полиндром">
+		<button onclick="removeText1()">X</button>
+		<p id="isPoly"></p>
+	</section>
+	<section>
+		<input id="secondInput" type="text" size="5" id="submitSpace" autocomplete="off" placeholder="fizzbuzz">
+		<button onclick="removeText2()">X</button>
+		<p id="fizzBuzz"></p>
+	</section>
+	<section>
+		<p>WIP</p>
+		<input id="thirdInput1" type="text" size="20" id="submitSpace" autocomplete="off" placeholder="анаграмма1">
+		<input id="thirdInput2" type="text" size="20" id="submitSpace" autocomplete="off" placeholder="анаграмма2">
+		<button onclick="removeText3()">X</button>
+		<p id="anagram"></p>
+	</section>
+	<script src="../src/second.js"></script>
 </body>
 
 </html>
